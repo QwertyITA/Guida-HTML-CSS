@@ -1,0 +1,86 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>L'HTML</title>
+		<meta name="Marco" charset="UTF-8" lang="it" />
+		<style>
+			@import url(css-pagina.css)
+		</style>
+		<link rel="shortcut icon" href="../immagini/32x32.png" type="image/x-icon" />
+	</head>
+	<body>
+		<header>
+			<div class="Header" id="default-size" />
+				
+				<table>
+					<tr>
+						<th class="tabella-logo" > <!-- Logo con link che porta alla home -->
+							<a href="../Index.html"><img src="../immagini/logo.png" height="55px" width="45px"</a> <!-- Anche questo -->
+						</th> 
+						<th class="tabella-titolo"><p class="font-titolo">L'HTML, il CSS e il Javascript</p></th>
+					</tr>
+				</table>	
+		</header>
+		
+		<nav>
+			<div class="nav" id="default-size">
+				
+				<div class="color-link" id="button"><nobr><strong><a class="hover" href="../Index.html">HOME</a></strong></nobr></div>
+				<div class="color-link" id="button"><nobr><strong><a class="hover" href="../pagina-html/html.html">HTML</a></strong></nobr></div>
+				<div class="color-link-selected" id="button"><nobr><strong><a class="hover" href="../pagina-css/css-pagina.html">CSS</a></strong></nobr></div>
+				<div class="color-link" id="button"><nobr><strong><a class="hover" href="../pagina-javascript/javascript.html">JAVASCRIPT</a></strong></nobr></div>
+				<div style="float: right;" class="color-link" id="button"><nobr><strong><a class="hover" href="../about/about.html" style="margin-left: -70px;">ABOUT</a></strong></nobr></div>
+			</div>
+		</nav>
+		
+		<main>
+			<div class="area-testo" id="default-short">
+				<h2 class="titoletto">Comandi del CSS</h2>
+				<img class="foto-destra" src="../immagini/css.png" height="210" width="150" />
+				<p class="testo-principale">
+					<strong><code>nometag {}</code></strong> serve per modificare tutti gli elementi del tag che si sceglie di modificare <br />
+					<strong><code>.nomeclasse</code></strong> serve per creare una classe che può assumere certe caratteristiche. La classe si può dopo assegnare a dei tag nell'html<br />
+					<strong><code>#nomeid</strong></code>	 serve per creare un id che può assumere certe caratteristiche. Si possono combinare con le classe se in un tag fai class="XXX" id="YYY".<br /><br />
+				</p>
+				<h3>Attributi assegnabili ad ogni tag HTML</h3>
+				<p class="testo-principale">
+					<strong>div</strong> {<br />
+						height: 1500px; -&gt; Indica l'altezza che un div deve assumere<br />
+						width: 800px;  -&gt; Indica la larghezza che un div deve assumere<br />
+						margin: 0px 0px 0px 0px; -&gt; modifica il margine esterno (auto lo allinea al centro)<br />
+						padding: 5px 5px 5px 5px; -&gt; Indica quanto spazio lasciare all'interno di ogni div<br />
+						border: solid black 50px; -&gt; cambia l'aspetto del bordo<br />
+						display: inline;  -&gt; Indica che il div deve stare sulla stessa riga del div precedente<br />
+						}<br /><br />
+					<strong>p</strong> {<br />
+					font-family: calibri; -&gt; Indica il font che usa la scritta<br />
+					font-size: 3058pt; -&gt; indica la dimensione delle lettere<br />
+					line-height: 4em -&gt; indica lo spazio che verrà messo tra ogni riga<br />
+					color: black; -&gt; indica il colore del testo<br />
+					}<br /><br />
+					
+					<strong>.hover:hover</strong> {<br />
+					background-color: #ededed; -&gt; indica il colore di sfondo del link all'hovering del mouse<br />
+					border-radius: 4px; -&gt; indica il raggio di curvatura dello sfondo attivacon con l'hovering del mouse<br />
+					}<br /><br />
+
+					<strong>a:link</strong> { <br />
+					text-decoration: none; -&gt; rimuove decorazioni (sottolineatura) al link non cliccato<br />
+					color: black; -&gt; colore del link non cliccato<br />
+					}<br /><br />
+
+					<strong>a:visited</strong> {<br />
+					color: black; -&gt; colore link visitato<br />
+					}<br /><br /><br /><br /><br /><br /><br />
+					</p>
+			</div>
+		</main>
+		
+		<footer>
+			<div class="footer" id="default-size">
+				<div class="testo-finale"><p>Creato da Galavotti Marco | 3°CI Itis L. da Vinci Carpi (MO)</p>
+			</div>
+			
+		</footer>
+	</body>	
+</html>

@@ -1,0 +1,134 @@
+/* STILE LINKS */
+
+.hover:hover {
+	background-color: #ededed;
+	border-radius: 4px;
+}
+
+a:link { 
+	text-decoration: none; 
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+/* ID */
+
+#default-size {
+	width: 850px;
+	margin: auto;
+}
+
+#default-short {
+	width: 780px;
+	margin: auto;
+}
+
+#button {
+	margin: 5px 5px 0px 10px;
+	height: 10px;
+	width: 76px;
+	display: inline-block;
+	font-family: calibri;
+	text-align: center;
+}
+
+#buttonXS {
+	margin: 5px 20px 0px 20px;
+	height: 10px;
+	width: 22px;
+	display: inline-block;
+	font-family: calibri;
+}
+
+/* BARRE DEL TITOLO, NAVIGAZIONE, ECC. QUI */
+
+.header {
+	height: 55px;
+	padding: auto;
+	background-color: orange;
+	border-bottom: solid #fc660a 5px;
+	border-radius: 5px;
+}
+
+.nav {
+	height: 30px;
+	padding: auto;
+	border-bottom: solid black 2px;
+	border-radius: 5px;
+}
+
+.footer {
+	height: 45px;
+	padding: auto;
+	background-color: orange;
+	border-top: solid #fc660a 5px;
+	border-radius: 5px;
+}
+
+.color-link {
+	color: black;
+}
+
+.color-link-selected {
+	border-top: solid black 3px;
+	border-radius: 0px;
+}
+
+/* CARATTERISTICHE BARRE QUI */
+
+.tabella-logo {
+	height: 50px;
+	width: 120px;
+}
+
+.tabella-titolo {
+	height: 50px;
+	width: 550px;
+}
+
+
+.font-titolo {
+	font-family: impact;
+	font-size: 25pt;
+}
+
+.right {
+	float: right; 
+}
+
+.testo-finale {
+	height: 40px;
+	width: 700px;
+	font-family: calibri;
+	padding: 0 0 5px 15px;
+	font-size: 11pt
+}
+
+
+
+/* AREA TESTO */
+
+.area-testo {
+	background-color: #f3f4f2;
+	font-family: calibri;
+	border-radius: 15px;
+	padding: 0px 15px 0px 15px;
+	line-height: 1.4;
+}
+
+.testo-principale {
+	font-size: 12.5pt;
+	line-height: 1.3;
+}
+
+.titoletto {
+	color: red;
+}
+
+.foto-destra {
+	float: right; 
+	margin: 10px 10px 10px 10px;
+}

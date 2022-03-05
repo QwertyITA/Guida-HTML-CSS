@@ -1,0 +1,86 @@
+<DOCTYPE html>
+<html>
+	<head>
+		<title>L'HTML</title>
+		<meta name="Marco" charset="UTF-8" lang="it" />
+		<style>
+			@import url(html.css)
+		</style>
+		<link rel="shortcut icon" href="../immagini/32x32.png" type="image/x-icon" />
+	</head>
+	<body>
+		<header>
+			<div class="Header" id="default-size" />
+				
+				<table>
+					<tr>
+						<th class="tabella-logo" > <!-- Logo con link che porta alla home -->
+							<a href="/Index.html"><img src="../immagini/logo.png" height="55px" width="45px"</a> <!-- Anche questo -->
+						</th> 
+						<th class="tabella-titolo"><p class="font-titolo">L'HTML, il CSS e il Javascript </p></th>
+					</tr>
+				</table>	
+		</header>
+		
+		<nav>
+			<div class="nav" id="default-size">
+				
+				<div class="color-link" id="button"><nobr><strong><a class="hover" href="../Index.html">HOME</a></strong></nobr></div>
+				<div class="color-link-selected" id="button"><nobr><strong><a class="hover" href="html.html">HTML</a></strong></nobr></div>
+				<div class="color-link" id="button"><nobr><strong><a class="hover" href="../pagina-css/css-pagina.html">CSS</a></strong></nobr></div>
+				<div class="color-link" id="button"><nobr><strong><a class="hover" href="../pagina-javascript/javascript.html">JAVASCRIPT</a></strong></nobr></div>
+				<div style="float: right;" class="color-link" id="button"><nobr><strong><a class="hover" href="../about/about.html" style="margin-left: -70px;">ABOUT</a></strong></nobr></div>
+			</div>
+		</nav>
+		
+		<main>
+			<div class="area-testo" id="default-short">
+				<h2>Le sezioni dell'HTML</h2>
+				<img class="foto-destra" src="../immagini/html.png" height="150" width="150" />
+				<p>L'HTML ha due sezioni principali: l'<strong>head</strong> e il <strong>body</strong>.<br />	
+				<h2 class="titoletto">I tag dell'HTML</h2>
+				<h3>Tag da usare nell'head:</h3>
+				<p class="testo-principale">
+					<strong><code>&lthtml&gt;</code></strong> è il primo tag dopo doctype e contiene tutto il codice<br />
+					<strong><code>&lthead&gt;</code></strong> serve per fissare informazioni che non saranno visibili nella pagina, ma che sono necessari, come il titolo, il charset o la descrizione<br />
+					<strong><code>&ltbody&gt;</code></strong> serve per scrivere tutta la pagina web (il titolo, testo, le foto e altro)<br />
+					<strong><code>&ltDOCTYPE html /&gt;</code></strong> html Indica che il documento è un html<br />
+					<br/>
+				</p>
+				<h3>Tag da usare nel body:</h3>
+				<p class="testo-principale">
+					<strong><code>&lttitle&gt;</code></strong> Inserisce un titolo alla scheda del browser e va posizionato nell'head<br />
+					<strong><code>&ltmeta&gt;</code></strong> Un tag contenente dei metadati come la descrizione di una pagina o una lingua<br />
+					<strong><code>&ltlink&gt;</code></strong> Tag dell'head che serve per collegare l'HTML al CSS<br />
+					<strong><code>&ltstyle&gt;</code></strong> Serve per attribuire uno specifico stile a qualcosa<br />
+				</p>
+					<h2 class="titoletto">Tag del body</h2>
+					<h3>Tag di raggruppamento</h3>
+				<p class="testo-principale">
+					<strong><code>&ltheader&gt; &ltnav&gt; &ltmain&gt; &ltaside&gt; &ltfooter&gt;</code></strong> Servono per dividere la tua pagina nelle sue parti fondamentali.<br />
+					<strong><code>&ltarticle&gt; &ltsection&gt;</code></strong> Serve per dividrere gli articoli gli uni dagli altri. Section invece serve per dividere le sezioni di un articolo.<br />
+					<strong><code>&ltdiv&gt;</code></strong> Il div crea un box model, ovvero una scatola che può assumere forme specifiche e che può conterere tutti i tag normali del body, anche altri &ltdiv&gt<br /><br />
+					<strong><code>&lth1, 2, 3, 4, 5, 6&gt;</code></strong> serve per scrivere con dei preset predefiniti<br />
+					<strong><code>&ltp&gt;</code></strong> Significa "paragrafo" e serve per scrivere un paragrafo normale<br />
+					<strong><code>&ltbr&gt;</code></strong> Significa "break line" e fa semplicemente andare a capo di una riga, interrompendo il paragrafo.<br />
+					<strong><code>&lthr&gt;</code></strong> crea una linea e interrompe il paragrafo<br />
+					<strong><code>&lta&gt;</code></strong> Crea un link che può essere personalizzato compleamente. Di default è blu, sottolineato e viola quando già cliccato, ma con il CSS si può cambiare tutto.<br />
+					<strong><code>&ltem&gt;</code></strong> scrive in corsivo <br />
+					<strong><code>&ltstrong&gt;</code></strong> Serve per scrivere in grassetto<br />
+					<strong><code>&ltcode&gt;</code></strong> Scrive in monospaziato<br />
+					<strong><code>&ltimg&gt;</code></strong> Crea un'immagine da sola<br />
+					<strong><code>&ltfigure&gt;</code></strong> &ltfigcaption&gt; crea una foto e gli assegna una breve descrizione<br />
+					<strong><code>&ltol&gt;</code></strong> Serve per scrivere una lista ordinata, infatti ol significa "ordered list"<br />
+					<strong><code>&ltul&gt;</code></strong> Crea una lista non ordinata, infatti ul significa "unordered list"<br />
+					<strong><code>&lttable&gt; &lttr&gt; &lttd&gt; &ltth&gt;</code></strong> crea una tabella e le rispettive righe e colonne<br />
+				</p>
+			</div>
+		</main>
+		
+		<footer>
+			<div class="footer" id="default-size">
+				<div class="testo-finale"><p>Creato da Galavotti Marco | 3°CI Itis L. da Vinci Carpi (MO)</p>
+			</div>
+		</footer>
+	</body>	
+</html>
